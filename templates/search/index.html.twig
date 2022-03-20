@@ -1,0 +1,68 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SearchController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Search for Jokes Here! ✅</h1>
+
+    {% if form|default %}
+        {{ form_start(form) }}
+            <div class='form-group'>
+                <label>Joke Search
+                {{ form_widget(form.joke, {'attr': {'class': 'form-control joke-field'}}) }}
+                </label>
+            </div>
+
+            <div class='form-group'>
+                {{ form_widget(form.search, {'attr': {'class': 'btn btn-primary'}}) }}
+            </div>
+
+        {{ form_end(form) }}
+    {% endif %}
+
+    {% if new_rating|default %}
+        <div class="alert alert-primary" role="alert">
+            Rating Successfully Published
+        </div>
+    {% endif %}
+
+    {% if search_exists %}
+    <h3>Search Results: {{ jokes_count }}</h3>
+    <p>Query: {{ search_query }}</p>
+    <div class='show-jokes'>
+        <table class='table'>
+            <thead>
+                <tr>
+                    <th scope='col'>Joke</th>
+                    <th scope='col'>Avg. Rating</th>
+                    <th scope='col'>Rate Joke</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for joke in existing_jokes %}
+                <tr>
+                    <td>{{ joke.joke }}</td>
+                    <td>N/A</td>
+                    <td>
+                        <a href='/rate/joke/{{ joke.id }}?rating=1'>1</a>
+                        <a href='/rate/joke/{{ joke.id }}?rating=2'>2</a>
+                        <a href='/rate/joke/{{ joke.id }}?rating=3'>3</a>
+                        <a href='/rate/joke/{{ joke.id }}?rating=4'>4</a>
+                        <a href='/rate/joke/{{ joke.id }}?rating=5'>5</a>
+
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+    
+</div>
+{% endblock %}

@@ -2,6 +2,8 @@
 
 ## To Import Jokes, just head on over to /import
 
+Hello Set5 Team!
+
 In this repo, you'll find my Jokes Project, partially developed.
 
 I went with working via Symfony, which may have been to my detriment.

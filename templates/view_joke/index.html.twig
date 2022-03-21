@@ -1,6 +1,10 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ViewJokeController!{% endblock %}
+{% block title %}Add a Comment{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('view_joke')}}
+{% endblock %}
 
 {% block body %}
 <style>
@@ -9,12 +13,59 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/xampp/htdocs/projects/jokes/src/Controller/ViewJokeController.php'|file_link(0) }}">src/Controller/ViewJokeController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/xampp/htdocs/projects/jokes/templates/view_joke/index.html.twig'|file_link(0) }}">templates/view_joke/index.html.twig</a></code></li>
-    </ul>
+    {% if comment_published %}
+        <div class="alert alert-success joke-search-alert bottom-ten" role="alert">
+            <strong>Success!</strong> Your comment was added.
+            <button type="button" class="btn btn-secondary close-alert" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+    <h1>Joke Details</h1>
+    <hr>
+    <blockquote class="blockquote text-center">
+        <p class="mb-10">{{ joke.joke }}</p>
+        <footer class="blockquote-footer">Someone <cite title="Source Title">funny</cite></footer>
+    </blockquote>
+    <hr>
+    <div id='comment-form-container' class='container'>
+        {{ form_start(form) }}
+            <!-- <div class='form-group'> -->
+                <div class='divider'></div>
+                <p class='bottom-ten'>Enter your comment:</p>
+                <div class='row'>
+                    <div class='col-9'>
+                        {{ form_widget(form.comment, {'attr': {'class': 'form-control comment-field'}}) }}
+                    </div>
+                    <div class='col-3'>
+                        {{ form_widget(form.submit, {'attr': {'class': 'full-width btn btn-primary'}}) }}
+                    </div>
+                </div>
+            <!-- </div> -->
+        {{ form_end(form) }}
+    </div>
+    <hr class='top-thirty'>
+    <div id='joke-comments-container'>
+        <table class='table table-striped table-hover'>
+            <thead>
+                <tr>
+                    <th scope='col'>Comments</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if comments|length > 0 %}
+                    {% for comment in comments %}
+                    <tr>
+                        <td>{{ loop.index }}
+                        <td>{{ comment.comment }}</td>
+                    </tr>
+                    {% endfor %}
+                {% else %}
+                    <tr><td>No comments yet. Be the first!</td></tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
 </div>
+
 {% endblock %}

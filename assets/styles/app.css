@@ -1,9 +1,53 @@
+/* Global Chunk */
 body {
-    background-color: lightgray;
+    background-color: #eee;
 }
 
-td.align-center {
-    text-align: center !important;
+.example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+.example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+
+button.close-alert {
+    float: right;
+    margin-top: -1px;
+    padding: 2px 6px 2px 6px;
 }
+
+.bottom-ten {
+    margin-bottom: 10px;
+}
+
+.top-ten { margin-top: 10px; }
+.top-twenty { margin-top: 20px; }
+.top-thirty { margin-top: 30px; }
+/* endchunk */
+
+
+/* Search Chunk */
+#search-results-table .center-me {
+    text-align: center;
+}
+
+#search-results-table .w-sixty { width: 60%; }
+#search-results-table .w-twenty { width: 20%; }
+
+div.joke-search-alert {
+    margin-top: 10px;
+    padding: 10px 14px 10px 14px;
+}
+/* endchunk */
+
+
+/* View Joke Chunk */
+input.comment-field {
+
+}
+
+button.full-width {
+    width: 100%;
+}
+
+
+/* endchunk */
+
 
 @import "bootstrap/dist/css/bootstrap.min.css";

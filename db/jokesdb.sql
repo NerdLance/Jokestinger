@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/lib/codemirror.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/hint/show-hint.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/lint/lint.css?v=5.1.3">
-    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=2155548505ltr&server=1">
+    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=2770784059ltr&server=1">
     <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/printview.css?v=5.1.3" media="print" id="printcss">
     <title>localhost / 127.0.0.1 | phpMyAdmin 5.1.3</title>
     <script data-cfasync="false" type="text/javascript" src="js/vendor/jquery/jquery.min.js?v=5.1.3"></script>
@@ -260,7 +260,7 @@ $(function() {
       </div>
       <div id="pma_navigation_tree" class="list_container synced highlight autoexpand">
 
-  <div class="pma_quick_warp"><div class="drop_list"><button title="Recent tables" class="drop_button btn">Recent</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=jokesdb&table=ratings">`jokesdb`.`ratings`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=jokesdb&table=jokes">`jokesdb`.`jokes`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=tester3db&table=tasks">`tester3db`.`tasks`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=tester3db&table=users">`tester3db`.`users`</a></li></ul></div><div class="drop_list"><button title="Favorite tables" class="drop_button btn">Favorites</button><ul id="pma_favorite_list"><li class="warp_link">There are no favorite tables.</li></ul></div><div class="clearfloat"></div></div>
+  <div class="pma_quick_warp"><div class="drop_list"><button title="Recent tables" class="drop_button btn">Recent</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=jokesdb&table=comments">`jokesdb`.`comments`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=jokesdb&table=ratings">`jokesdb`.`ratings`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=jokesdb&table=jokes">`jokesdb`.`jokes`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=tester3db&table=tasks">`tester3db`.`tasks`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=tester3db&table=users">`tester3db`.`users`</a></li></ul></div><div class="drop_list"><button title="Favorite tables" class="drop_button btn">Favorites</button><ul id="pma_favorite_list"><li class="warp_link">There are no favorite tables.</li></ul></div><div class="clearfloat"></div></div>
 
 <div class="clearfloat"></div>
 

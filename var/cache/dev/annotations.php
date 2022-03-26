@@ -58,6 +58,10 @@ return [[
 '[C]App%5CController%5CImportController' => 1,
 'App%5CController%5CImportController%23getJokes' => 0,
 '[C]App%5CController%5CImportController%23getJokes' => 1,
+'App%5CController%5CRateJokeController' => 0,
+'[C]App%5CController%5CRateJokeController' => 1,
+'App%5CController%5CRateJokeController%23index' => 0,
+'[C]App%5CController%5CRateJokeController%23index' => 1,
 'App%5CController%5CSearchController' => 0,
 '[C]App%5CController%5CSearchController' => 1,
 'App%5CController%5CSearchController%23index' => 0,
@@ -114,12 +118,18 @@ return [[
 '[C]App%5CEntity%5CRatings%23getRating' => 1,
 'App%5CEntity%5CRatings%23setRating' => 0,
 '[C]App%5CEntity%5CRatings%23setRating' => 1,
+'App%5CEntity%5CRatings%23getJokeId' => 0,
+'[C]App%5CEntity%5CRatings%23getJokeId' => 1,
+'App%5CEntity%5CRatings%23setJokeId' => 0,
+'[C]App%5CEntity%5CRatings%23setJokeId' => 1,
 'App%5CEntity%5CRatings%24id' => 0,
 '[C]App%5CEntity%5CRatings%24id' => 1,
 'App%5CEntity%5CRatings%24joke_origin_id' => 0,
 '[C]App%5CEntity%5CRatings%24joke_origin_id' => 1,
 'App%5CEntity%5CRatings%24rating' => 0,
 '[C]App%5CEntity%5CRatings%24rating' => 1,
+'App%5CEntity%5CRatings%24joke_id' => 0,
+'[C]App%5CEntity%5CRatings%24joke_id' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 0,
 '[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23__construct' => 0,
@@ -668,6 +678,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1647810191,
+1 => 1648253489,
 
 ]];

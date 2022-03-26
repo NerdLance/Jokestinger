@@ -222,6 +222,6 @@ class __TwigTemplate_f3c8405c6e0e1fd98f5648bd789abfaedd2e36776a3e8a3f86dc2824746
         {% block body '' %}
     </body>
 </html>
-", "@WebProfiler/Profiler/base.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\base.html.twig");
+", "@WebProfiler/Profiler/base.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\base.html.twig");
     }
 }

@@ -434,6 +434,6 @@ class __TwigTemplate_2051f165f2f17984f9fd7fd0752181a840d3d17485fbe71251b7ac05b3a
     {%- set widget_class = widget_class|default('mr-2') -%}
     {{- parent() -}}
 {%- endblock radio_widget -%}
-", "tailwind_2_layout.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\tailwind_2_layout.html.twig");
+", "tailwind_2_layout.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\tailwind_2_layout.html.twig");
     }
 }

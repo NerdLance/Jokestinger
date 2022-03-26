@@ -148,6 +148,6 @@ class __TwigTemplate_66248f5d784d1ce1976ee242bd683f11fd5e21f55c6fbc6659c99fb3688
     <h3>Joke Rating: {{ joke_rating }}</h3>
 </div>
 {% endblock %}
-", "rate_joke/index.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\templates\\rate_joke\\index.html.twig");
+", "rate_joke/index.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\templates\\rate_joke\\index.html.twig");
     }
 }

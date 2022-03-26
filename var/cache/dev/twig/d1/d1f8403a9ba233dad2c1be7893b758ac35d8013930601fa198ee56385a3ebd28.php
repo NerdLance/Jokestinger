@@ -403,6 +403,6 @@ class __TwigTemplate_cd98108acdb1d6035394e3231a9073e1d2ea2eb325aa2bfe60f510c190a
 
 </body>
 </html>
-", "@ApiPlatform/SwaggerUi/index.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\SwaggerUi\\index.html.twig");
+", "@ApiPlatform/SwaggerUi/index.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\SwaggerUi\\index.html.twig");
     }
 }

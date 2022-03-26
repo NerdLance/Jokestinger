@@ -447,6 +447,6 @@ class __TwigTemplate_cdec70f24bfdda05a8e81b5ad58b369c4e9fe66b37ba42f942db811f36e
     });
 })();
 </script>
-", "@WebProfiler/Profiler/settings.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\settings.html.twig");
+", "@WebProfiler/Profiler/settings.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\settings.html.twig");
     }
 }

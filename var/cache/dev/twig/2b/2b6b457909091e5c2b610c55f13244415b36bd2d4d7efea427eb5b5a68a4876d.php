@@ -1140,6 +1140,6 @@ class __TwigTemplate_0224af095e4701b1b4b6600fd074709588ad0c950439a89721c04f05172
 
 </body>
 </html>
-", "@ApiPlatform/GraphQlPlayground/index.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\GraphQlPlayground\\index.html.twig");
+", "@ApiPlatform/GraphQlPlayground/index.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\GraphQlPlayground\\index.html.twig");
     }
 }

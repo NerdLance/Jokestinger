@@ -204,6 +204,6 @@ class __TwigTemplate_5e5cdd6a3e69748241fb21945d0b338d87f32419d5041f727557679dc0d
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\templates\\base.html.twig");
+", "base.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\templates\\base.html.twig");
     }
 }

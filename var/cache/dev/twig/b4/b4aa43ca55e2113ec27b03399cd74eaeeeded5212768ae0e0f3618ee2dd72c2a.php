@@ -330,6 +330,6 @@ class __TwigTemplate_1f934917d7071c3de8ebb3b0d23165c0164a90fceb37e36549d1102c5a1
 </div>
 
 {% endblock %}
-", "view_joke/index.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\templates\\view_joke\\index.html.twig");
+", "view_joke/index.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\templates\\view_joke\\index.html.twig");
     }
 }

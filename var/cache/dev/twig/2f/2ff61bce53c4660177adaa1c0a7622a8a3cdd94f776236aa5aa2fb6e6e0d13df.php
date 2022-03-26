@@ -139,6 +139,6 @@ class __TwigTemplate_8c394882bbff51b1b91ed807d57a931c208410c4b00c16cf917bb241a25
 
 </body>
 </html>
-", "@ApiPlatform/Graphiql/index.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\Graphiql\\index.html.twig");
+", "@ApiPlatform/Graphiql/index.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\Graphiql\\index.html.twig");
     }
 }

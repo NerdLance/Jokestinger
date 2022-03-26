@@ -227,6 +227,6 @@ class __TwigTemplate_747447c7faa730e62b924c969de6c9f9f9f5ce9eba3795ad8849f7ab92e
         </div>
     </form>
 </div>
-", "@WebProfiler/Profiler/search.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\search.html.twig");
+", "@WebProfiler/Profiler/search.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\search.html.twig");
     }
 }

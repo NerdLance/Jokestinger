@@ -846,6 +846,6 @@ $context["answer"] === false)) {
         </div>
     {% endif %}
 {% endblock %}
-", "@ApiPlatform/DataCollector/request.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\DataCollector\\request.html.twig");
+", "@ApiPlatform/DataCollector/request.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\DataCollector\\request.html.twig");
     }
 }

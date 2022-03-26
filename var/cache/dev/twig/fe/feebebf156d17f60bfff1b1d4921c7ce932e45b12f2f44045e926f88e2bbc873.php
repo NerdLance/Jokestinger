@@ -370,6 +370,6 @@ class __TwigTemplate_b942b8c58587a5e4e64fe02323c7b7658aa632b0b5e16a0e4d949e2fb00
     
 </div>
 {% endblock %}
-", "search/index.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\templates\\search\\index.html.twig");
+", "search/index.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\templates\\search\\index.html.twig");
     }
 }

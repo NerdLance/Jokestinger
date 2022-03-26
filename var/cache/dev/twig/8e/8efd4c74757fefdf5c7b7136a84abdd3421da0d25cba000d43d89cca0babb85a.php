@@ -148,40 +148,6 @@ class __TwigTemplate_51b08db2ac1020ca4fb03ecafe51f251f3d89d6b66d0d07be685e7d2ba9
         </table>
     </div>
 
-    <div class='show-jokes'>
-        <table class='table'>
-            <thead>
-                <tr>
-                    <th scope='col'>ID</th>
-                    <th scope='col'>Joke</th>
-                </tr>
-            </thead>
-            <tbody>
-                ";
-        // line 47
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["jokes"]) || array_key_exists("jokes", $context) ? $context["jokes"] : (function () { throw new RuntimeError('Variable "jokes" does not exist.', 47, $this->source); })()));
-        foreach ($context['_seq'] as $context["_key"] => $context["joke"]) {
-            // line 48
-            echo "                <tr>
-                    <th scope=\"row\">";
-            // line 49
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["joke"], "id", [], "any", false, false, false, 49), "html", null, true);
-            echo " </th>
-                    <td>";
-            // line 50
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["joke"], "joke", [], "any", false, false, false, 50), "html", null, true);
-            echo "</td>
-                </tr>
-                ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['joke'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 53
-        echo "            </tbody>
-        </table>
-    </div>
 </div>
 ";
         
@@ -204,7 +170,7 @@ class __TwigTemplate_51b08db2ac1020ca4fb03ecafe51f251f3d89d6b66d0d07be685e7d2ba9
 
     public function getDebugInfo()
     {
-        return array (  182 => 53,  173 => 50,  169 => 49,  166 => 48,  162 => 47,  147 => 34,  138 => 31,  134 => 30,  131 => 29,  127 => 28,  113 => 17,  109 => 16,  105 => 15,  101 => 14,  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  147 => 34,  138 => 31,  134 => 30,  131 => 29,  127 => 28,  113 => 17,  109 => 16,  105 => 15,  101 => 14,  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -246,26 +212,8 @@ class __TwigTemplate_51b08db2ac1020ca4fb03ecafe51f251f3d89d6b66d0d07be685e7d2ba9
         </table>
     </div>
 
-    <div class='show-jokes'>
-        <table class='table'>
-            <thead>
-                <tr>
-                    <th scope='col'>ID</th>
-                    <th scope='col'>Joke</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for joke in jokes %}
-                <tr>
-                    <th scope=\"row\">{{ joke.id }} </th>
-                    <td>{{ joke.joke }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
 </div>
 {% endblock %}
-", "import/index.html.twig", "C:\\xampp\\htdocs\\projects\\jokes\\templates\\import\\index.html.twig");
+", "import/index.html.twig", "C:\\xampp\\htdocs\\projects\\Jokestinger\\templates\\import\\index.html.twig");
     }
 }
